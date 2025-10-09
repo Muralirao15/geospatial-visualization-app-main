@@ -1,0 +1,85 @@
+/* Root container styled as a card */
+.prediction-card {
+    width: 100%;
+    padding: 1.5rem;
+    background-color: white;
+    border: 2px solid #e0e0e0;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 12px;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+  }
+  
+  /* Title styling */
+  .prediction-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  /* Input field styling */
+  .prediction-input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .prediction-input::placeholder {
+    color: #aaa;
+  }
+  
+  /* Button styling */
+  .prediction-button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .prediction-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Prediction result styling */
+  .prediction-result {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #333;
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .prediction-card {
+      width: 100%;
+    }
+  
+    .prediction-title {
+      font-size: 1rem;
+    }
+  
+    .prediction-input {
+      font-size: 0.875rem;
+    }
+  
+    .prediction-button {
+      font-size: 0.875rem;
+    }
+  }
+  

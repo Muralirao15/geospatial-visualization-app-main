@@ -1,0 +1,14 @@
+/* Full-screen map container */
+.mapviewer-map {
+    width: 100%;
+    height: 50vh;
+    background-color: #dbeafe; /* Light blue fallback */
+    box-sizing: border-box;
+}
+
+/* Responsive adjustment */
+@media (max-width: 768px) {
+    .mapviewer-map {
+        height: 100vh;
+    }
+}
